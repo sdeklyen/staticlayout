@@ -1,0 +1,124 @@
+
+.landing {
+    background: rgba(0,0,0,.5) linear-gradient(0deg, rgba(0,0,0,0) 50%, rgba(0,0,0, .5) 100%), radial-gradient(50% 120%, rgba(0,0,0,0) 50%, rgba(0,0,0,.7) 100%);
+    background-size: cover;
+    background-image: url(./assets/netflixfront.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+
+#signInBox {
+    position: relative;
+    left: 0%;
+    top: 1%;
+    width: 100%;
+    text-align: right;
+}
+
+#signInBoxBorder {
+    color: #fff;
+    background-color: #e50914;
+    line-height: normal;
+    margin: 18px 3% 0;
+    padding: 7px 17px;
+    font-weight: 400;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#signInBoxBorder:hover {
+    background-color: red;
+}
+
+.whatsNext {
+    position: absolute;
+    top: auto;
+    bottom: 350px;
+    font-size: 80px;
+    margin: 0 0 30px;
+    color: #fff;
+    line-height: 1.1em;
+    font-weight: 700;
+    text-shadow: 1px 1px 10px #000;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.anywhere {
+    position: absolute;
+    font-size: 36px; 
+    margin: 0 0 30px;
+    letter-spacing: .2px;
+    font-weight: 400;
+    color: #fff; 
+    text-align: center;
+    bottom: 300px; 
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 10px #000;
+}
+
+#thirtyDaysFree {
+    position: relative;
+    left: 0%;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+
+}
+
+#thirtyDaysFreeBox {
+    color: #fff;
+    background-color: #e50914;
+    margin: 18px 3% 0;
+    padding: 24.5px 2em;
+    font-weight: 400;
+    border-radius: 3px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    bottom: 250px;
+    width: 100%
+}
+
+#thirtyDaysFreeBox:hover {
+    background-color: red;
+}
+
+.account {
+    position: absolute;
+    font-size: 20px; 
+    margin: 0 0 30px;
+    letter-spacing: .2px;
+    font-weight: 400;
+    color: #fff; 
+    text-align: center;
+    bottom: 150px; 
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 10px #000;
+}
+
+a:link {color: white};
+
+.secondPage {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flexContainer {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
